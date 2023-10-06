@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>lista 2</title>
+</head>
+<body>
+    <button type="button" name="click" onclick="contador(n1)">Click</button>
+    <script src="script.js"></script>
+    <p id="texto"></p>
+    <button type="button" name="click" onclick="document.getElementById('idade').innerHTML = verificaIdade(idade)">Click</button>
+    <p id="idade"></p>
+    <button type="button" name="click" onclick="gerador()">Gerar senha aleatória</button>
+    <p id="geradorDeSenhas"></p>
+    <button type="button" name="click" onclick="randomNumber()">Gerar numero aleatório</button>
+    <p id="geradorDeNumeros"></p>
+    <button type="button" name="click" onclick="document.getElementById('parcelas').innerHTML =calculoParcelas()">Gerar verificar parcela</button>
+    <p id="parcelas"></p>
+    <fieldset id="question1">
+        <legend>Quais são frutas?</legend>
+        <label><INPUT TYPE="checkbox" NAME="q1" VALUE="wrong">banana<BR></label>
+        <label><INPUT TYPE="checkbox" NAME="q2" VALUE="wrong">tomate<BR></label>
+        <label><INPUT TYPE="checkbox" NAME="q3" VALUE="right">maça<BR></label>
+        <label><INPUT TYPE="checkbox" NAME="q4" VALUE="wrong">rucula<BR></label>
+        <label><INPUT TYPE="checkbox" NAME="q5" VALUE="right">caju<BR></label>
+        </fieldset>
+        <input type="button" id="answer">
+        <style>
+            *{
+                background-color: #9921;
+            }
+         fieldset{
+            display: none;
+           
+         }
+        </style>
+        <p id="quiz"></p>
+</body>
+</html>

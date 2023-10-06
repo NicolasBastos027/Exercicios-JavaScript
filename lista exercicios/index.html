@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <p id="teste"></p>
+    <p id="texto"></p>
+    <!-- <input id="num1" placeholder="Digite aqui..." type="text" >
+    <input id="num2" placeholder="Digite aqui..." type="text" >
+    <button type="button" onclick="verificar()">Verificar</button>
+    <p>positivo ou negativo</p>
+    <input id="posiNega" placeholder="Digite aqui..." type="text" >
+    <button type="button" onclick="positivo()" >Verificar</button>
+    <p>+18</p>
+    <input id="maisdezoito" placeholder="Digite aqui..." type="text" >
+    <button type="button" onclick="maisdezoito()" >Verificar</button>
+    <p>par ou impar</p>
+    <input id="imparpar" placeholder="Digite aqui..." type="text" >
+    <button type="button" onclick="imparpar()" >Verificar</button>
+    <p>cor</p>
+    <input id="cor" placeholder="Digite aqui..." type="text" >
+    <button type="button" onclick="verificaCor()" >Verificar</button> -->
+    <button type="button" onclick="trocaCor()" ondblclick="trocaCor2()">Variação de cor</button>
+    <button type="button" onclick="corReset()">Resetar cor</button>
+    <p>Contador de clicks</p>
+    <p id="contadormedidor">0</p>
+    <button type="button" id="botaoClicks" onclick="contadorClicks()">click</button>
+    <h1>Galeria</h1>
+        <div id="galeria">
+           <section id="imagem1">
+            <img src="E1n3r6hWYAgaxG2.jpeg" alt="" onclick="imagemZoom()"  id="blackwhite" onmouseover="mouseporcima1()" onmouseout="document.getElementById('texto_oculto1').style.display='none'">
+            <p id="texto_oculto1">Concept art of N for the Pokemon Generations series of shorts.</p>
+        </section>
+        <section id="imagem2">
+            <img src="Pokemon-Generations-Concept-Art_Relic-Castle_Unova-Region_Pokemon-Black-Pokemon-White-Pokemon-Black-2-and-Pokemon-White-2.webp" id="generations" onclick="imagemZoom1()"  alt="" onmouseover="mouseporcima2()" onmouseout="document.getElementById('texto_oculto').style.display='none'">
+            <p id="texto_oculto">pokemon generations concept art relic castle unova region pokemon black pokemon white pokemon black 2 and pokemon white 2</p>
+        </section>
+        </div>
+        <style>
+            #texto_oculto, #texto_oculto1{
+                display: none;
+                width: 500px;
+            }
+            #imagem1{
+                display: flex;
+                flex-direction: column;
+            }
+            h1{
+                align-items: center;
+                display: flex;
+                justify-content: center;
+            }
+            #galeria{
+                align-items: center;
+                display: flex;
+                flex-direction: row;
+                justify-content: center;
+            }
+            img{
+                width: 500px;
+            }
+        </style>
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="geral">
+        <h1>Lista de Exercicios</h1>
+        <!-- exercicio 1 -->
+        <p>1. Crie uma função que receba dois números e retorne a soma deles.</p>
+        <div class="calculo_div">
+            <input class="calculo" type="number" value="" id="input_n1">
+            <p class="resposta1">+</p><input class="calculo" type="number" id="input_n2">
+            <p class="resposta1">=</p>
+            <p class="resposta1" id="resposta1"></p>
+        </div>
+        <button onclick="soma_numeros()">Somar</button>
+        <!-- exercicio 2 -->
+        <p>2. Escreva uma função que aceite uma string como entrada e retorne o número de caracteres
+            na string.</p>
+        <div class="calculo_div">
+            <input class="string" placeholder="digite a palavra" type="text" value="" id="input_string">
+            <p class="resposta1">=</p>
+            <p class="resposta1" id="resposta2"></p>
+        </div>
+        <button onclick="verifica_string()">Informar</button>
+        <!-- exercicio 3 -->
+        <p>3. Crie um objeto que represente uma pessoa com propriedades como nome, idade e
+            endereço.</p>
+        <div class="calculo_div">
+            <p class="resposta3" id="resposta3"></p>
+        </div>
+        <!-- exercicio 4 -->
+        <p>4. Escreva uma função que aceite um evento de clique e exiba uma mensagem no console
+            quando o botão for clicado.</p>
+        <div class="column_div">
+            <button onclick="click_console()">Click</button>
+            <!-- exercicio 5 -->
+            <p class="c5">5. Crie um array de números e escreva um loop para calcular a soma de todos os números no
+                array.</p>
+            <div class="column_div">
+                <p class="resposta5" id="resposta5"></p>
+            </div>
+            <button onclick="calcular_array()">Escrever Array</button>
+        </div>
+        <!-- exercicio 6 -->
+        <p>6. Implemente uma classe "Produto" com propriedades como nome, preço e quantidade.</p>
+        <div class="column_div">
+            <p class="resposta6" id="resposta6"></p>
+            <!-- exercicio 7 -->
+            <p>7. Escreva uma função que aceite um array de números e retorne o maior número</p>
+            <div class="calculo_div">
+
+            </div>
+            <button onclick="verifica_maior()">Informar</button>
+            <!-- exercicio 8 -->
+            <p>8. Crie um evento de mouseover que altere a cor de fundo de um elemento HTML quando o
+                mouse passar sobre ele</p>
+            <div class="calculo_div">
+                <p class="resposta1">Passe o mouse sobre o botão</p>
+                <p class="resposta1" id="resposta2"></p>
+            </div>
+            <button onmouseover="troca_cor()" id="botaocor">Informar</button>
+            <p>9. Desenvolva uma função que receba um array de nomes e retorne um novo array com
+                apenas os nomes que começam com a letra "A".</p>
+            <div class="calculo_div">
+                <input class="string" placeholder="digite a palavra" type="text" value="" id="input_string">
+                <p class="resposta1">=</p>
+                <p class="resposta1" id="resposta2"></p>
+            </div>
+            <button onclick="verifica_string()">Informar</button>
+            <!-- exercicio 10 -->
+            <p>10. Implemente uma classe "Pessoa" com métodos para definir e obter o nome e a idade da
+                pessoa.</p>
+                <p class="resposta1" id="resposta10"></p>
+            </p>
+            <!-- exercicio 11 -->
+            <p>11. Crie um objeto JSON que represente informações sobre um carro, como marca, modelo e
+                ano.
+            <div class="calculo_div">
+                <p class="resposta1" id="resposta11"></p>
+            </div>
+            <!-- exercicio 12 -->
+            <p>12. Escreva uma função que aceite um número e retorne "par" se for par e "ímpar" se for ímpar.</p>
+            <div class="calculo_div">
+                <input class="string" placeholder="digite a palavra" type="number"  id="n">
+                <p class="resposta1">=</p>
+                <p class="resposta1" id="resposta12">?</p>
+            </div>
+            <button onclick="impar_par()">Informar</button>
+             <!-- exercicio 13 -->
+             <p>13. Crie um botão que, quando clicado, adicione um item a uma lista em uma página HTML.</p>
+             <div class="calculo_div">
+                 <input class="string" placeholder="digite a palavra" type="text"  id="lista_adiciona">
+                 <ul id="lista">Lista</ul>
+             </div>
+             <button onclick="adiciona_lista()">Adicionar a lista</button>
+              <!-- exercicio 14 -->
+              <p>14. Desenvolva um loop que itere por um objeto JSON e exiba todas as chaves e valores no 
+                console.</p>
+                
+        </div>
+        <script src="script.js"></script>
+</body>
+
+</html>
